@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* 
+.home-bg{
+  background: url("http://thehma.in/static/media/undraw_meditation.4901afa9b293efe97b86e882d82980c0.svg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+} */
+
+/* style={{ display: "flex", height: "100%", justifyContent: "center", alignItems: "center" }} */
+
+
+.begin{
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.begin > p {
+  /* style={{ fontSize: "27px", fontWeight: "450" }} */
+  font-size: 27px;
+  font-weight: 450px;
+} 
+
+.homeImg{
+  width: 60vw;
+}
+
+.question{
+font-size: 30px;
+font-weight: 400;
+}
+
+.options{
+  font-size: 18px;
+  font-weight: 450;
+}
+
+
+
+
+/* CSS for Mobile Screens */
+@media (max-width: 768px) {
+
+  .registerForm{
+    width: 65vw;
+  }
+
+  .loginForm{
+    width: 65vw;
+  }
+
+}
